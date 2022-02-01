@@ -114,3 +114,17 @@ header nav a:hover {
   width: 100%;
   display: block;
 }
+
+/* Footer */
+
+footer {
+  width: 100%;
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.footer-message {
+  font-size: 32px;
+}
