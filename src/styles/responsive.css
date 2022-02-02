@@ -9,4 +9,9 @@
     width: 300px;
     height: 100px
   }
+  .corrousel, .item, .owl-carousel{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
 }

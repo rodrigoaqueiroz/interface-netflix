@@ -27,7 +27,7 @@ header .container {
 header .logo {
   color: var(--red);
   font-family: 'Arial Black', Times;
-  font-size: 64px;
+  font-size: 48px;
   margin-left: 16px;
 }
 
@@ -54,11 +54,16 @@ header nav a:hover {
 }
 
 /* Main content */
+main {
+  height: 1000px;
+}
+
 .main {
   font-size: 16px;
-  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5) 100%), url('../images/dark.jpg');
-  height: 1000px;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5) 100%);
+  background-image: url('../images/guerra-do-velho.jpg');
   background-size: cover;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -67,6 +72,8 @@ header nav a:hover {
 .main, .description{
   margin-bottom: 20px;
   font-size: 24px;
+  font-weight: 700;
+  text-align: justify;
 }
 
 .title{
@@ -109,10 +116,16 @@ header nav a:hover {
 
 /* CARROUSEL  */
 
+.item {
+  height: 500px;
+  width: 500px;
+  padding: 16px;
+  cursor: pointer;
+}
+
 .card {
   height: 100%;
   width: 100%;
-  display: block;
 }
 
 /* Footer */
@@ -128,3 +141,4 @@ footer {
 .footer-message {
   font-size: 32px;
 }
+
