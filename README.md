@@ -15,4 +15,4 @@ Especialista: Felipe Aguiar
 No repositório há o projeto e umas mudanças e desafios propostos por ele. 🎥
 <br><br>
 
-<b>Stacks: HTML, CSS, Bootstrap, JQuery e Font Awesome</b>
+<b>Stack: HTML, CSS, Bootstrap, JQuery e Font Awesome</b>
